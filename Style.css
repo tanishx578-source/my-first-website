@@ -1,0 +1,86 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html, body{
+  width:100%;
+  height:100%;
+  
+}
+
+body{
+  background-image: url('/premium_photo-1701091956254-8f24ea99a53b.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.box1{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color:red;
+  height:80px;
+}
+
+.ta{
+  display:flex;
+  justify-content:center;
+  gap:60px;
+  padding:10px;
+  background-color: black;
+  border-style: dashed;
+  border-color: red;
+  font-family: Monospace;
+}
+
+.ta a{
+  text-decoration:none;   /* underlin remove */
+  color: white;
+  
+}
+.box1 h1{ 
+  font-family: Georgia;
+  font-size: 25px;
+}
+.h p{
+  color: white;
+  font-family: Segoe UI;
+}
+.image{
+  text-align: right;
+  margin-top: 159px;
+}
+.t{
+  color: white;
+  font-family: Segoe UI;
+}   
+.h{
+  width: 100%;
+  height: 150px;
+  font-size: 14px;
+}
+.t{
+  width: 100%;
+  height: 150px;
+  font-size: 14px;
+}
+.botton{
+  border-radius: 50%;
+}
+.b.btn button{
+  margin-top:15px;
+  padding:12px 25px;
+  font-size:16px;
+  cursor:pointer;
+  border:2px dashed red;
+  background:black;
+  color:white;
+  transition:0.3s;
+}
+
+.btn button:hover{
+  transform:scale(1.1);
+  background:red;
+}
